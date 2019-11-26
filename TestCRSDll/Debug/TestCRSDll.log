@@ -1,0 +1,28 @@
+﻿生成启动时间为 2019/11/21 星期四 20:34:52。
+     1>项目“E:\project\CPP\TestCRSDll\TestCRSDll\TestCRSDll.vcxproj”在节点 2 上(Build 个目标)。
+     1>QtRccSetDependencies:
+         "C:\Qt\Qt5.6.3\5.6.3\msvc2013\bin\rcc.exe" --list "TestCRSDll.qrc" > "Debug\rcc_list.txt" 2> nul
+       QtWork:
+         Uic'ing TestCRSDll.ui...
+         Rcc'ing TestCRSDll.qrc...
+         Moc'ing TestCRSDll.h...
+          RCC: Warning: No resources in 'E:\project\CPP\TestCRSDll\TestCRSDll\TestCRSDll.qrc'.
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.6.3\5.6.3\msvc2013\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.6.3\5.6.3\msvc2013\include\QtCore /IC:\Qt\Qt5.6.3\5.6.3\msvc2013\include\QtGui /IC:\Qt\Qt5.6.3\5.6.3\msvc2013\include\QtANGLE /IC:\Qt\Qt5.6.3\5.6.3\msvc2013\include\QtWidgets /Zi /nologo /W1 /WX- /MP /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp TestCRSDll.cpp GeneratedFiles\qrc_TestCRSDll.cpp GeneratedFiles\Debug\moc_TestCRSDll.cpp
+         main.cpp
+         TestCRSDll.cpp
+         qrc_TestCRSDll.cpp
+         moc_TestCRSDll.cpp
+     1>e:\project\cpp\testcrsdll\testcrsdll\testcrsdll.cpp(458): warning C4700: 使用了未初始化的局部变量“pulses”
+     1>e:\project\cpp\testcrsdll\testcrsdll\testcrsdll.cpp(199): warning C4700: 使用了未初始化的局部变量“pulses”
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\project\CPP\TestCRSDll\Win32\Debug\\TestCRSDll.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.6.3\5.6.3\msvc2013\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib CRS_SDK.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\project\CPP\TestCRSDll\Win32\Debug\TestCRSDll.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\project\CPP\TestCRSDll\Win32\Debug\TestCRSDll.lib" /MACHINE:X86 /SAFESEH Debug\main.obj
+         Debug\TestCRSDll.obj
+         Debug\qrc_TestCRSDll.obj
+         Debug\moc_TestCRSDll.obj
+         TestCRSDll.vcxproj -> E:\project\CPP\TestCRSDll\Win32\Debug\TestCRSDll.exe
+     1>已完成生成项目“E:\project\CPP\TestCRSDll\TestCRSDll\TestCRSDll.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.25
